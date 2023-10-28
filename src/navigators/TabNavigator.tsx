@@ -38,7 +38,6 @@ const TabNavigator = () => {
             <Tab.Screen name='History' component={OrderHistoryScreen} options={{
                 tabBarIcon: ({ focused, color, size }) => (
                     <Customicon name='bell' size={25} color={focused ? COLORS.primaryOrangeHex : COLORS.primaryLightGreyHex} />
-                
             )}}></Tab.Screen>
 
       </Tab.Navigator>
